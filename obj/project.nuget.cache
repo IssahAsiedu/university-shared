@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OHUJB95TuofAojdNSGS7scx78cQi0SjgYDwiaXsKG31WrRBnYvqHBWHQotIHTPOs37ccg94sJRZWNthXOoo6UA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\IssahAsiedu\\Desktop\\project\\UniversityDto\\UniversityShared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\IssahAsiedu\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\IssahAsiedu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

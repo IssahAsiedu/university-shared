@@ -1,0 +1,12 @@
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\bin\Debug\net7.0\UniversityDtos.deps.json
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\bin\Debug\net7.0\UniversityDtos.dll
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\bin\Debug\net7.0\UniversityDtos.pdb
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityDtos.csproj.AssemblyReference.cache
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityDtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityDtos.AssemblyInfoInputs.cache
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityDtos.AssemblyInfo.cs
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityDtos.csproj.CoreCompileInputs.cache
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityDtos.dll
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\refint\UniversityDtos.dll
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityDtos.pdb
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\ref\UniversityDtos.dll

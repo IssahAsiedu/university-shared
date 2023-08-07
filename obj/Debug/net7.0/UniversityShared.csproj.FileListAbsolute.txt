@@ -1,0 +1,12 @@
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\bin\Debug\net7.0\UniversityShared.deps.json
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\bin\Debug\net7.0\UniversityShared.dll
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\bin\Debug\net7.0\UniversityShared.pdb
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityShared.csproj.AssemblyReference.cache
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityShared.AssemblyInfoInputs.cache
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityShared.AssemblyInfo.cs
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityShared.csproj.CoreCompileInputs.cache
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityShared.dll
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\refint\UniversityShared.dll
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\UniversityShared.pdb
+C:\Users\IssahAsiedu\Desktop\project\UniversityDto\obj\Debug\net7.0\ref\UniversityShared.dll
