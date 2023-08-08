@@ -163,6 +163,8 @@ public record PaginationFilter
 
     private int? pageSize;
 
+    public string? SearchString { get; set; }
+
     public int CurrentIndex { get => index ?? 1; set => index = value; }
 
     public int PageSize { get => pageSize ?? 10; set => pageSize = value; }
