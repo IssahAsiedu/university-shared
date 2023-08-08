@@ -67,14 +67,14 @@ public class Instructor
 
     [Required]
     [StringLength(50)]
-    public required string LastName { get; set; }
+    public string LastName { get; set; } = string.Empty;
 
     [Required]
     [StringLength(50)]
-    public required string FirstName { get; set; }
+    public string FirstName { get; set; } = string.Empty;
 
     [DataType(DataType.Date)]
-    public DateTime HireDate { get; set; }
+    public DateTime HireDate { get; set; } = DateTime.UtcNow;
 
     public List<Course> Courses { get; set; } = new List<Course>();
 

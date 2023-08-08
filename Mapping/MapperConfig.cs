@@ -24,6 +24,17 @@ public class MapperConfig : Profile
 
         CreateMap<Course, InstructorCourseResponseData>().ReverseMap();
 
+        CreateMap<Instructor, InstructorRegistrationData>();
+
+        CreateMap<Instructor, InstructorUpdateData>();
+
+        CreateMap<InstructorRegistrationData, Instructor>()
+            .ForMember(dest => dest.Courses, act => act.Ignore());
+
+        CreateMap<InstructorUpdateData, Instructor>()
+            .ForMember(dest => dest.Courses, act => act.Ignore())
+            .ForAllMembers((opt) => opt.Condition((src, dest, value) => value != null));
+
         CreateMap<Enrollment, InstructorEnrollmentResponseData>().ReverseMap();
 
         CreateMap<StudentRegistrationData, Student>().ReverseMap();
@@ -47,15 +58,9 @@ public class MapperConfig : Profile
 
         CreateMap<DateTime, string>().ConvertUsing(new DateToStringConverter());
 
-        CreateMap<Enrollment, string>().ConvertUsing(new EnrollmentToStringConverter());
-    }
-}
+        CreateMap<Enrollment, string>().ConvertUsing((src) => src.ID.ToString());
 
-public class EnrollmentToStringConverter : ITypeConverter<Enrollment, string>
-{
-    public string Convert(Enrollment source, string destination, ResolutionContext context)
-    {
-        return source.CourseID.ToString();
+        CreateMap<Course, string>().ConvertUsing((src) => src.ID.ToString());
     }
 }
 
@@ -81,4 +86,4 @@ public class DateToStringConverter : ITypeConverter<DateTime, string>
     {
         return source.ToString("yyyy-MM-dd");
     }
-}
+} 

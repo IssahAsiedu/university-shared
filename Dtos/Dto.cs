@@ -28,6 +28,41 @@ public record InstructorCourseResponseData(
     List<InstructorEnrollmentResponseData> Enrollments
 );
 
+public record InstructorRegistrationData
+{
+    [Required]
+    [MinLength(3)]
+    public string LastName { get; set; } = string.Empty;
+
+    [Required]
+    [MinLength(3)]
+    public string FirstName { get; set; } = string.Empty;
+
+    [Required]
+    [MinLength(3)]
+    public string? HireDate { get; set; }
+
+    public List<string> Courses { get; set; } = new();
+
+    public string? Office { get; set; } 
+}
+
+public record InstructorUpdateData
+{
+    [MinLength(3)]
+    public string? LastName { get; set; } = string.Empty;
+
+    [MinLength(3)]
+    public string? FirstName { get; set; } = string.Empty;
+
+    [MinLength(3)]
+    public string? HireDate { get; set; }
+
+    public List<string> Courses { get; set; } = new();
+
+    public string? Office { get; set; }
+}
+
 public record CourseUpdateDto
 {
     public string? Title { get; set; }
